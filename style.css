@@ -3,14 +3,6 @@
     flex-wrap: wrap;
 }
 
-#small #medium #large{
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    border-style: solid;
-    border-width: 5px;
-    margin: 20px;
-    padding: 30px;
-}
-
 @media screen and (max-width: 480px){
     body{
         background-color: #DE4463;
@@ -18,7 +10,6 @@
     }
     #small, #medium, #large{
         flex: 100%;
-        flex-direction: column;
     }
 }
 
@@ -45,6 +36,5 @@
     }
     #small, #medium, #large{
         flex: 30%;
-        flex-direction: row;
     }
 }
